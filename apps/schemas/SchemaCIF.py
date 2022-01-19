@@ -28,8 +28,6 @@ class CIF(BaseModel):
     source: str = None,
 
 class Loan_by_Cif(BaseModel):
-    loan_status: int = None,
-    loan_amount: int = None,
     # loan_tenure: int = None,
     # interest: int = None,
     cif: int = None,
@@ -40,6 +38,7 @@ class Loan_by_Cif(BaseModel):
     gender: str = None,
     # marital: str = None,
     income: int = None,
+    loan_amount: int = None,
     phone: str = None,
     email: str = None,
     # isphoneverified: int = None,
