@@ -21,7 +21,7 @@ class CIF(BaseModel):
     idno : str = None
     fname : str = None
     lname : str = None
-    dob : str = None
+    # dob : str = None
     gender : str = None
     marital_status : str = None
     income : int = None
@@ -29,8 +29,8 @@ class CIF(BaseModel):
     email : str = None
     isphoneverified : str = None
     isemailverified : str = None
-    createdate : str = None
-    updatedate : str = None
+    # createdate : str = None
+    # updatedate : str = None
     source : str = None
 
 class ResponseCIF(BaseModel):
