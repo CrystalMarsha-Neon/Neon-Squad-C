@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-hashids
-pyyaml
-colorlog
-orator
-pydantic
-psycopg2
