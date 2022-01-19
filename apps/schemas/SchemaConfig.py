@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from typing import List, Dict
 
 class Postgres(BaseModel):
-    host: str = '' 
+    host: str =''
     port: int = None
     username: str =''
     password: str =''
